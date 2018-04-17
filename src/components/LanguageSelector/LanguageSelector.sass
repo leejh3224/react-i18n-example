@@ -1,0 +1,21 @@
+@import base/typography
+@import utils/animation
+@import utils/variables
+
+.container
+  position: relative
+
+.language-selector
+  align-items: center
+  cursor: pointer
+  display: flex
+  margin-left: auto
+  padding: $space
+
+  .text
+    +font-medium
+
+    margin-right: $space / 2
+
+.arrow-up
+  +rotate-180

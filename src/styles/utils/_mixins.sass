@@ -1,0 +1,29 @@
+@import utils/variables
+
+=divider
+  background-color: $lighter-grey
+  height: 1px
+  width: 100%
+
+=modal
+  bottom: 50px
+  position: absolute
+  right: -70px
+  text-align: start
+  z-index: 99
+
+  @media(max-width: 590px)
+    right: 0
+
+=modal-background
+  background-color: $white
+  height: 100vh
+  left: 0
+  opacity: 0.7
+  position: fixed
+  top: 0
+  width: 100vw
+  z-index: 98
+
+=shadow
+  box-shadow: 0 1px 10px 0 $shadow

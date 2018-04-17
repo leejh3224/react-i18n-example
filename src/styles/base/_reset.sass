@@ -1,0 +1,22 @@
+@import utils/variables
+
+*
+  box-sizing: border-box
+  font-family: $base-font-family
+  line-height: $base-line-height
+  margin: 0
+  padding: 0
+
+button
+  background-color: transparent
+  border: 0
+
+ul,
+ol
+  list-style: none
+
+// i18n generates span automatically and it's inline element
+// in order to make them work like p or h tags
+// set display to block
+span
+  display: block

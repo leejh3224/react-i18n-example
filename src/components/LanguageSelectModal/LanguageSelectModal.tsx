@@ -31,6 +31,11 @@ const languages = [
     id: 3,
     name: '日本語',
   },
+  {
+    code: 'zh',
+    id: 4,
+    name: '汉语',
+  },
 ]
 
 const LanguageSelectModal: React.SFC<IProps> = ({

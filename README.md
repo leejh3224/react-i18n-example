@@ -7,4 +7,4 @@
 * React-redux-i18n
 * Sass(css-module)
 
-## Live Demo: [here](http://leejh3224-react.s3-website.ap-northeast-2.amazonaws.com/)
+## Live Demo: [here](https://d2qx3p4elhdpld.cloudfront.net/)

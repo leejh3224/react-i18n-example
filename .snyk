@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - ts-jest > cpx > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - fork-ts-checker-webpack-plugin > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - fork-ts-checker-webpack-plugin > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - ts-jest > cpx > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - fork-ts-checker-webpack-plugin > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - ts-jest > cpx > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - fork-ts-checker-webpack-plugin > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - ts-jest > cpx > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-13T11:58:46.607Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-13T11:58:46.607Z'

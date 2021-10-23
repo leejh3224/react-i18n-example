@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -60,3 +60,70 @@ patch:
         patched: '2019-05-13T11:58:46.607Z'
     - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
         patched: '2019-05-13T11:58:46.607Z'
+  SNYK-JS-LODASH-567746:
+    - html-webpack-plugin > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - react-redux > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - redux > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - webpack-manifest-plugin > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - source-map-loader > async > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - react-dev-utils > inquirer > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-types > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > jest-config > babel-core > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-traverse > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > jest-config > babel-core > babel-register > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - fork-ts-checker-webpack-plugin > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - node-sass > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - ts-jest > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T01:31:07.989Z'
